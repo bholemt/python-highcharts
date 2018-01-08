@@ -207,6 +207,8 @@ PLOT_OPTION_ALLOWED_ARGS = {
     "keys": list,
     "linkedTo": basestring,
     "minPointLength": int,
+    "minSize" : int,
+    "maxSize" : [basestring, int],
     "negativeColor": (ColorObject, basestring, dict),
     "pointInterval": int,
     "pointIntervalUnit": basestring,
