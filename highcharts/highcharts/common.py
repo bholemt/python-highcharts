@@ -547,7 +547,8 @@ class Marker(CommonObject):
     "radius": int,
     "states": (States, dict),
     "symbol": basestring,
-    "width": int
+    "width": int,
+    'fillOpacity': float
     }
 
 class Halo(CommonObject):
