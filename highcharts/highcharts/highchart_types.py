@@ -19,6 +19,7 @@ PLOT_OPTION_ALLOWED_ARGS = {
     "index": [float, int],
     "name": basestring,
     "point": (Point, dict),
+    "marker": (Marker, dict),
     "selected": bool,
     "showCheckbox": bool,
     "showInLegend": bool,
